@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Rent A Car</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
@@ -98,11 +98,10 @@ foreach($allproducers as $p){
 <br>
 
 <input type="number" class="form-control" name="cena" placeholder="Unesite cenu vozila">
-<span style=color:orange;>*
 <?php if (array_key_exists('cena', $errors)) {
    echo $errors['cena']; 
 } 
-?></span>
+?>
 <br>
 
 <p>Izaberite kategoriju</p>
